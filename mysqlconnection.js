@@ -4,7 +4,6 @@ var connection = mysql.createConnection({
   user: 'codeboxx',
   password: 'Codeboxx1!',
   database: 'abdulakeeb'
-
 });
 
 connection.connect();
