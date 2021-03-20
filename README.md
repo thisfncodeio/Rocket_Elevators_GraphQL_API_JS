@@ -5,8 +5,10 @@
 This week we used GraphQL to retrieve data from two data different data sources using just one API request. These data sources include MySQL and Postgresql. MySQL behave as our main app's operational database, whereas, Postgresql behaves as our data warehouse or decision database.
 
 The GraphQL Solution was to be able to respond to 3 main queries:
-  
-  **Query #1**
+
+---
+
+**Query #1**
 * **Retrieving the address of the building, the beginning and the end of the intervention for a specific intervention.**
     
       {
@@ -25,8 +27,9 @@ The GraphQL Solution was to be able to respond to 3 main queries:
         }
       }
 
+---
   
-  **Query #2**
+**Query #2**
 * **Retrieving customer information and the list of interventions that took place for a specific building.**
       
       { 
@@ -41,7 +44,9 @@ The GraphQL Solution was to be able to respond to 3 main queries:
         } 
       }
       
-  **Query #3**
+---
+      
+**Query #3**
 * **Retrieval of all interventions carried out by a specified employee with the buildings associated with these interventions including the details (Table BuildingDetails)      associated with these buildings.**
       
       { 
